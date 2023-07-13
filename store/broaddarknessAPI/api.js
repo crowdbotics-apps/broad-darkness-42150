@@ -1,6 +1,6 @@
 import axios from "axios"
 const broaddarknessAPI = axios.create({
-  baseURL: "https://broad-darkness-42150.botics.co",
+  baseURL: "https://spydr-42150.botics.co",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_docs_schema_retrieve(payload) {
